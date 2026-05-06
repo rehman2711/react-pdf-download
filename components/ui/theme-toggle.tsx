@@ -14,7 +14,7 @@ export function ModeToggle() {
   }
 
   return (
-    <div className="flex gap-2">
+    <div className="gap- flex">
       <Link
         href="https://github.com/rehman2711/react-pdf-download.git"
         target="blank"

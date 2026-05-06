@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <header className="flex w-full items-center justify-center gap-4 px-4 pt-8">
-      <div className="flex w-full max-w-4xl items-center justify-between rounded-none border bg-muted/30 ps-4">
+      <div className="flex w-full max-w-4xl items-center justify-between rounded-none border bg-muted/40 ps-4">
         <div className="flex items-center gap-1 text-lg font-semibold">
           <button
             onClick={() => {
@@ -38,18 +38,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <div>
-            <Button variant="outline" className="rounded-none" size="icon-lg">
-              <ShoppingCart className="h-5 w-5" />
-            </Button>
-            <Button variant="outline" className="rounded-none" size="icon-lg">
-              <User className="h-5 w-5" />
-            </Button>
+            <ModeToggle />
           </div>
         </div>
       </div>
-      <div>
-        <ModeToggle />
-      </div>
+      <div></div>
     </header>
   )
 }

@@ -168,7 +168,7 @@ const ShoeInvoicePDF = ({ items }) => {
         {/* HEADER */}
         <View style={{ flexDirection: "row" }}>
           <View style={[styles.header, { width: "60%" }]}>
-            <Text style={styles.company}>COMMET</Text>
+            <Text style={styles.company}>COMMET STORE</Text>
           </View>
           <View style={[styles.headerRight, { width: "40%" }]}>
             <Text>+91 9021100157</Text>
